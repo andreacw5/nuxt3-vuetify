@@ -36,7 +36,7 @@ const drawer = ref(false);
           <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         </template>
 
-        <v-app-bar-title>Application Bar</v-app-bar-title>
+        <v-app-bar-title>{{ $t('app_title') }}</v-app-bar-title>
       </v-app-bar>
       <v-navigation-drawer
           v-model="drawer"
