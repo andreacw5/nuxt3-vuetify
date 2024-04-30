@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-vuetify",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
