@@ -25,7 +25,22 @@ Follow these instructions to set up the project on your local machine for develo
 - [Nuxt 3](https://nuxt.com)
 - [Vuetify](https://vuetifyjs.com/en/)
 - [Nuxt i18n](https://i18n.nuxtjs.org/)
-- [Nuxt Sitemap](https://sitemap.nuxtjs.org/)
+- [Nuxt Google fonts](https://nuxt.com/modules/google-fonts)
+- [Nuxt Image](https://image.nuxt.com/)
+- [Nuxt Pinia](https://pinia.vuejs.org/ssr/nuxt.html)
+- [Iconify](https://iconify.design/docs/icon-components/vue/)
+- [Date fns](https://date-fns.org/)
+
+## Available scripts
+- `yarn dev` - Start the application in development mode.
+- `yarn build` - Build the application for production.
+- `yarn start` - Start the application in production mode.
+- `yarn start:prod` - Start the application in production mode (Vite optimized).
+- `yarn generate` - Generate static files for the application.
+- `yarn reset` - Reset the application dependencies.
+- `yarn preview` - Preview the generated static files.
+- `yarn postinstall` - Run postinstall tasks.
+- `yarn unlighthouse` - Run Lighthouse tests for the application.
 
 ## Requirements
 *  [Node.js](https://nodejs.org/en/download) 16.x.x or higher
